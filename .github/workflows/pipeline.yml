@@ -19,13 +19,12 @@ jobs:
       with:
         dotnet-version: 8.0.x
 
-    - run: cd API/
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore API/
     - name: Build
-      run: dotnet build --no-restore
+      run: dotnet build --no-restore API/
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test --no-build --verbosity normal API/
 
   #deploy:
     #runs-on: ubuntu-latest

@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1846FA75-A3E6-4333-A3ED-B7402ED8C254}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{38F7289A-7FF5-42A3-81F6-24A2FCAAEB4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tour", "Tour", "{CE868744-3ED1-45B2-A3C8-80A483130525}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{5788B401-D59D-4139-A818-30ED3CAC4C7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tour.Application.Domain", "src\Modules\Tour\Application\Tour.Application.Domain\Tour.Application.Domain.csproj", "{E6DC77AA-C8AB-4446-A471-114F5FC77327}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tour.Application.Ports", "src\Modules\Tour\Application\Tour.Application.Ports\Tour.Application.Ports.csproj", "{E7401B41-CE6B-4981-8C2D-F7D56E344CFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tour.Application.UseCases", "src\Modules\Tour\Application\Tour.Application.UseCases\Tour.Application.UseCases.csproj", "{C3646FD8-951C-4D9E-8AE8-8A30EF66AF5E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{7E966B55-2EC0-4537-9E00-91F3E7AB3A62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tour.Infrastructure.Adapters", "src\Modules\Tour\Infrastructure\Tour.Infrastructure.Adapters\Tour.Infrastructure.Adapters.csproj", "{591A8F21-095A-4427-9E51-A85473834BAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6DC77AA-C8AB-4446-A471-114F5FC77327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6DC77AA-C8AB-4446-A471-114F5FC77327}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6DC77AA-C8AB-4446-A471-114F5FC77327}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6DC77AA-C8AB-4446-A471-114F5FC77327}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7401B41-CE6B-4981-8C2D-F7D56E344CFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7401B41-CE6B-4981-8C2D-F7D56E344CFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7401B41-CE6B-4981-8C2D-F7D56E344CFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7401B41-CE6B-4981-8C2D-F7D56E344CFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3646FD8-951C-4D9E-8AE8-8A30EF66AF5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3646FD8-951C-4D9E-8AE8-8A30EF66AF5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3646FD8-951C-4D9E-8AE8-8A30EF66AF5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3646FD8-951C-4D9E-8AE8-8A30EF66AF5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{591A8F21-095A-4427-9E51-A85473834BAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{591A8F21-095A-4427-9E51-A85473834BAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{591A8F21-095A-4427-9E51-A85473834BAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{591A8F21-095A-4427-9E51-A85473834BAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{38F7289A-7FF5-42A3-81F6-24A2FCAAEB4F} = {1846FA75-A3E6-4333-A3ED-B7402ED8C254}
+		{CE868744-3ED1-45B2-A3C8-80A483130525} = {38F7289A-7FF5-42A3-81F6-24A2FCAAEB4F}
+		{5788B401-D59D-4139-A818-30ED3CAC4C7C} = {CE868744-3ED1-45B2-A3C8-80A483130525}
+		{E6DC77AA-C8AB-4446-A471-114F5FC77327} = {5788B401-D59D-4139-A818-30ED3CAC4C7C}
+		{E7401B41-CE6B-4981-8C2D-F7D56E344CFA} = {5788B401-D59D-4139-A818-30ED3CAC4C7C}
+		{C3646FD8-951C-4D9E-8AE8-8A30EF66AF5E} = {5788B401-D59D-4139-A818-30ED3CAC4C7C}
+		{7E966B55-2EC0-4537-9E00-91F3E7AB3A62} = {CE868744-3ED1-45B2-A3C8-80A483130525}
+		{591A8F21-095A-4427-9E51-A85473834BAB} = {7E966B55-2EC0-4537-9E00-91F3E7AB3A62}
+	EndGlobalSection
+EndGlobal

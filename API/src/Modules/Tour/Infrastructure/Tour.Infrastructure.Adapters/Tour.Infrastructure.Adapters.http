@@ -1,0 +1,6 @@
+# @Tour.Infrastructure.Adapters_HostAddress = http://localhost:5040
+
+# GET {{Tour.Infrastructure.Adapters_HostAddress}}/weatherforecast/
+# Accept: application/json
+
+# ###
